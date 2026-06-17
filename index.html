@@ -1,3 +1,42 @@
+ <!DOCTYPE html>
 <html>
-    THIS IS TEXT
-</html>
+<head>
+    <title>Restaurant Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Restaurant Management System</h1>
+
+    <div class="container">
+        <h2>Menu</h2>
+
+        <label>
+            <input type="checkbox" value="120" class="item">
+            Burger (₹120)
+        </label><br>
+
+        <label>
+            <input type="checkbox" value="250" class="item">
+            Pizza (₹250)
+        </label><br>
+
+        <label>
+            <input type="checkbox" value="180" class="item">
+            Pasta (₹180)
+        </label><br>
+
+        <label>
+            <input type="checkbox" value="80" class="item">
+            Coffee (₹80)
+        </label><br><br>
+
+        <button onclick="calculateBill()">Generate Bill</button>
+
+        <h2 id="total"></h2>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>   
